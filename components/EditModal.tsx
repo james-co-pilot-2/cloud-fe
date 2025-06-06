@@ -1,6 +1,6 @@
-import { Modal, Form, Input, Radio, Button } from 'antd';
+'use client';
+import { Modal, Form, Input, Radio } from 'antd';
 import { IUser } from '@/types';
-import { useState } from 'react';
 
 type Props = {
   visible: boolean;
